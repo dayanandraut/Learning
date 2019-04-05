@@ -1,4 +1,10 @@
-    // method to convert character of roman into integer
+/*
+Question Taken from InterviewBit
+Given a roman numeral, convert it to an integer.
+Input is guaranteed to be within the range from 1 to 3999
+*/
+
+// method to convert character of roman into integer
     public int toInt(char x){
         int r = 0;
             switch(x){
